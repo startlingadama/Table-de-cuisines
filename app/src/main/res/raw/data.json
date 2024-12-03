@@ -1,0 +1,98 @@
+[
+  {
+    "nom": "Couscous aux sept légumes",
+    "ingredients": ["Semoule de couscous", "Navets", "Carottes", "Courgettes", "Potiron", "Pois chiches", "Raisins secs", "Épices (ras el hanout)", "Huile d'olive"],
+    "etapes": ["Préparer les légumes", "Cuire les pois chiches", "Cuire la semoule de couscous", "Assembler le tout et servir."],
+    "categorie": "Plat principal"
+  },
+  {
+    "nom": "Tagine de poulet au citron confit et olives",
+    "ingredients": ["Poulet", "Citron confit", "Olives vertes", "Oignons", "Ail", "Coriandre", "Épices (curcuma, gingembre)", "Huile d'olive"],
+    "etapes": ["Faire revenir le poulet avec les épices", "Ajouter les oignons et le citron confit", "Cuire à feu doux", "Ajouter les olives en fin de cuisson."],
+    "categorie": "Plat principal"
+  },
+  {
+    "nom": "Pastilla au poulet et amandes",
+    "ingredients": ["Feuilles de brick", "Poulet", "Amandes", "Oignons", "Cannelle", "Sucre glace", "Beurre fondu"],
+    "etapes": ["Cuire le poulet avec les épices", "Préparer la farce avec les amandes", "Assembler les pastillas avec les feuilles de brick", "Cuire au four jusqu'à dorure."],
+    "categorie": "Entrée"
+  },
+  {
+    "nom": "Harira",
+    "ingredients": ["Tomates", "Lentilles", "Pois chiches", "Viande hachée", "Coriandre", "Épices (curcuma, gingembre)", "Vermicelles"],
+    "etapes": ["Préparer une base avec les tomates et épices", "Ajouter les pois chiches et lentilles", "Cuire jusqu'à épaississement", "Incorporer les vermicelles à la fin."],
+    "categorie": "Entrée"
+  },
+  {
+    "nom": "Briouates au fromage",
+    "ingredients": ["Feuilles de brick", "Fromage frais", "Persil", "Beurre"],
+    "etapes": ["Mélanger le fromage avec le persil", "Plier les feuilles de brick en triangles", "Faire frire ou cuire au four."],
+    "categorie": "Entrée"
+  },
+  {
+    "nom": "Tanjia marrakchie",
+    "ingredients": ["Viande de bœuf ou d'agneau", "Cumin", "Ail", "Citron confit", "Smen (beurre fermenté)", "Huile d'olive"],
+    "etapes": ["Mélanger tous les ingrédients", "Cuire lentement dans une poterie (tanjia)", "Servir avec du pain."],
+    "categorie": "Plat principal"
+  },
+  {
+    "nom": "Tagine de kefta aux œufs",
+    "ingredients": ["Viande hachée", "Tomates", "Oignons", "Coriandre", "Épices", "Œufs"],
+    "etapes": ["Préparer la sauce tomate", "Former des boulettes de kefta", "Cuire les boulettes dans la sauce", "Casser des œufs dans le tagine avant de servir."],
+    "categorie": "Plat principal"
+  },
+  {
+    "nom": "Baghrir (crêpes mille trous)",
+    "ingredients": ["Semoule fine", "Farine", "Levure boulangère", "Eau tiède", "Sel"],
+    "etapes": ["Préparer la pâte à baghrir", "Laisser reposer jusqu'à fermentation", "Cuire sur une seule face dans une poêle antiadhésive."],
+    "categorie": "Dessert"
+  },
+  {
+    "nom": "Rfissa",
+    "ingredients": ["Poulet", "Msemmen (galettes feuilletées)", "Lentilles", "Oignons", "Épices", "Fenugrec"],
+    "etapes": ["Cuire le poulet avec les épices et oignons", "Préparer les lentilles avec le fenugrec", "Servir sur les msemmen émiettés."],
+    "categorie": "Plat principal"
+  },
+  {
+    "nom": "Msemmen",
+    "ingredients": ["Farine", "Semoule fine", "Eau tiède", "Sel", "Beurre fondu"],
+    "etapes": ["Préparer la pâte", "Étaler et plier plusieurs fois", "Cuire sur une poêle jusqu'à dorure."],
+    "categorie": "Dessert"
+  },
+  {
+    "nom": "Ghriba aux amandes",
+    "ingredients": ["Amandes moulues", "Sucre glace", "Œufs", "Zeste de citron"],
+    "etapes": ["Mélanger les ingrédients", "Former des petites boules", "Cuire au four jusqu'à légère dorure."],
+    "categorie": "Dessert"
+  },
+  {
+    "nom": "Sellou",
+    "ingredients": ["Farine torréfiée", "Amandes", "Sésame", "Sucre glace", "Cannelle", "Beurre fondu"],
+    "etapes": ["Torréfier la farine, les amandes et le sésame", "Mélanger avec le beurre et les épices", "Former une pâte ou servir en poudre."],
+    "categorie": "Dessert"
+  },
+  {
+    "nom": "Mkhanfar (beignets marocains)",
+    "ingredients": ["Farine", "Eau", "Sucre", "Levure boulangère", "Huile pour friture"],
+    "etapes": ["Préparer une pâte liquide", "Laisser reposer jusqu'à fermentation", "Faire frire en petites portions."],
+    "categorie": "Dessert"
+  },
+  {
+    "nom": "Poulet au miel et amandes",
+    "ingredients": ["Poulet", "Amandes grillées", "Oignons", "Miel", "Cannelle"],
+    "etapes": ["Cuire le poulet avec les épices et oignons", "Ajouter le miel en fin de cuisson", "Servir avec les amandes."],
+    "categorie": "Plat principal"
+  },
+  {
+    "nom": "Zaalouk (caviar d’aubergines)",
+    "ingredients": ["Aubergines", "Tomates", "Ail", "Huile d'olive", "Épices"],
+    "etapes": ["Griller ou cuire les aubergines", "Préparer une sauce tomate", "Mélanger et réduire à feu doux."],
+    "categorie": "Entrée"
+  },
+  {
+    "nom": "Harcha (galette de semoule)",
+    "ingredients": ["Semoule fine", "Beurre fondu", "Sucre", "Levure chimique", "Lait"],
+    "etapes": ["Mélanger les ingrédients", "Former des galettes", "Cuire sur une poêle chaude."],
+    "categorie": "Dessert"
+  }
+]

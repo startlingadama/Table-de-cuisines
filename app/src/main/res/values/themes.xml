@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TableDeCuisines" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/couleur_primaire</item>
+        <item name="colorPrimaryVariant">@color/couleur_accent</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/coleur_secondaire</item>
+        <item name="colorSecondaryVariant">@color/couleur_accent</item>
+        <item name="colorOnSecondary">@color/coleur_secondaire</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/couleur_primaire</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Table de Cuisines</string>
+    <string name="contDesc">Logo de l\'application</string>
+    <string name="acc_action1">Ajouter une recette</string>
+    <string name="acc_action2">Consulter les recettes existantes</string>
+</resources>
