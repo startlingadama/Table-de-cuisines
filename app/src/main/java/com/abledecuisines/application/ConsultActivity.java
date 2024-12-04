@@ -3,6 +3,7 @@ package com.abledecuisines.application;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
@@ -33,13 +34,9 @@ public class ConsultActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
+
         setContentView(R.layout.activity_consult);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
+
 
         recyclerView = findViewById(R.id.recycleView);
 
@@ -77,6 +74,17 @@ public class ConsultActivity extends AppCompatActivity {
         });
 
 
+        findViewById(R.id.button8).setOnClickListener(v -> {
+            String text = ((EditText) findViewById(R.id.editTextText3)).getText().toString();
+            if (!text.isEmpty()) {
+                filtre(text);
+
+            }
+        });
+
+
+
+
         adapteur = new MonAdapteur(recettes);
         recyclerView.setAdapter(adapteur);
 
@@ -95,7 +103,7 @@ public class ConsultActivity extends AppCompatActivity {
 
             RadioButton selectedRadioButton = findViewById(selectedId);
             String selectedText = selectedRadioButton.getText().toString();
-            Toast.makeText(this, "Sélectionné : " + selectedText, Toast.LENGTH_SHORT).show();
+
 
         }
 
@@ -149,7 +157,25 @@ public class ConsultActivity extends AppCompatActivity {
                 }
                 this.adapteur.update(recettes);
                 break;
+
+            default:
+                recettes.clear();
+                recettes = gestionnaireData.getListe();
+                for(int i = 0; i < recettes.size(); i++){
+                    try {
+                        if(!recettes.get(i).getString("nom").contains(categorie)){
+                            recettes.remove(i);
+
+                        }
+                    }catch (JSONException e){
+                        e.printStackTrace();
+                    }
+                    }
+                this.adapteur.update(recettes);
+                break;
+                }
+
         }
+
     }
 
-}

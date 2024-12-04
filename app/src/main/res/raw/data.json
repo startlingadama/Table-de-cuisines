@@ -3,96 +3,112 @@
     "nom": "Couscous aux sept légumes",
     "ingredients": ["Semoule de couscous", "Navets", "Carottes", "Courgettes", "Potiron", "Pois chiches", "Raisins secs", "Épices (ras el hanout)", "Huile d'olive"],
     "etapes": ["Préparer les légumes", "Cuire les pois chiches", "Cuire la semoule de couscous", "Assembler le tout et servir."],
-    "categorie": "Plat principal"
+    "categorie": "Plat principal",
+    "img_url": "https://chefahmedabargh.com/by/wp-content/uploads/2019/05/IMG_20190521_010941_2.jpg"
   },
   {
     "nom": "Tagine de poulet au citron confit et olives",
     "ingredients": ["Poulet", "Citron confit", "Olives vertes", "Oignons", "Ail", "Coriandre", "Épices (curcuma, gingembre)", "Huile d'olive"],
     "etapes": ["Faire revenir le poulet avec les épices", "Ajouter les oignons et le citron confit", "Cuire à feu doux", "Ajouter les olives en fin de cuisson."],
-    "categorie": "Plat principal"
+    "categorie": "Plat principal",
+    "img_url": "https://images.radio-canada.ca/v1/alimentation/recette/1x1/tajine-poulet-olives-citron-confit.jpg"
   },
   {
     "nom": "Pastilla au poulet et amandes",
     "ingredients": ["Feuilles de brick", "Poulet", "Amandes", "Oignons", "Cannelle", "Sucre glace", "Beurre fondu"],
     "etapes": ["Cuire le poulet avec les épices", "Préparer la farce avec les amandes", "Assembler les pastillas avec les feuilles de brick", "Cuire au four jusqu'à dorure."],
-    "categorie": "Entrée"
+    "categorie": "Entrée",
+    "img_url": "https://www.la-cuisine-marocaine.com/photos-recettes/Pastilla-marocaine-au-poulet-et-amandes.jpg"
   },
   {
     "nom": "Harira",
     "ingredients": ["Tomates", "Lentilles", "Pois chiches", "Viande hachée", "Coriandre", "Épices (curcuma, gingembre)", "Vermicelles"],
     "etapes": ["Préparer une base avec les tomates et épices", "Ajouter les pois chiches et lentilles", "Cuire jusqu'à épaississement", "Incorporer les vermicelles à la fin."],
-    "categorie": "Entrée"
+    "categorie": "Entrée",
+    "img_url": "https://tasteofmaroc.com/wp-content/uploads/2017/05/harira-2-moroccan-soup-picturepartners-bigstock-1024x683.jpg"
   },
   {
     "nom": "Briouates au fromage",
     "ingredients": ["Feuilles de brick", "Fromage frais", "Persil", "Beurre"],
     "etapes": ["Mélanger le fromage avec le persil", "Plier les feuilles de brick en triangles", "Faire frire ou cuire au four."],
-    "categorie": "Entrée"
+    "categorie": "Entrée",
+    "img_url": "https://www.plurielle.ma/wp-content/uploads/2019/11/brick.jpg"
   },
   {
     "nom": "Tanjia marrakchie",
     "ingredients": ["Viande de bœuf ou d'agneau", "Cumin", "Ail", "Citron confit", "Smen (beurre fermenté)", "Huile d'olive"],
     "etapes": ["Mélanger tous les ingrédients", "Cuire lentement dans une poterie (tanjia)", "Servir avec du pain."],
-    "categorie": "Plat principal"
+    "categorie": "Plat principal",
+    "img_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3X9CIlCWMBOCN2nIdDyjwbc6_AOmRHRzydih9W1awRNY4QYSVbbbmbw6beRZZbwmwnrEF-Nnirp9kzAKjfsAY6O4JSCxXYSpDBEb6MEwR8eKsTwH9jnGOqYvvKEkykSWJH4swCVmD2KfEgtvfL6KOxDNNiTPjzoOwA1RwVcqmoT04eqatePcaV7KEaUk/s1000/tanjia%202.jpg"
   },
   {
     "nom": "Tagine de kefta aux œufs",
     "ingredients": ["Viande hachée", "Tomates", "Oignons", "Coriandre", "Épices", "Œufs"],
     "etapes": ["Préparer la sauce tomate", "Former des boulettes de kefta", "Cuire les boulettes dans la sauce", "Casser des œufs dans le tagine avant de servir."],
-    "categorie": "Plat principal"
+    "categorie": "Plat principal",
+    "img_url": "https://img-3.journaldesfemmes.fr/LK_D3vK93niNo77q1yKxlX9L63M=/750x500/59d54f54ae3043cb8ebd45f067ce8142/ccmcms-jdf/39869343.jpg"
   },
   {
     "nom": "Baghrir (crêpes mille trous)",
     "ingredients": ["Semoule fine", "Farine", "Levure boulangère", "Eau tiède", "Sel"],
     "etapes": ["Préparer la pâte à baghrir", "Laisser reposer jusqu'à fermentation", "Cuire sur une seule face dans une poêle antiadhésive."],
-    "categorie": "Dessert"
+    "categorie": "Dessert",
+    "img_url": "https://gateauetcuisinerachida.com/wp-content/uploads/2015/06/recette-de-cre%CC%80pes-mille-trous.jpg"
   },
   {
     "nom": "Rfissa",
     "ingredients": ["Poulet", "Msemmen (galettes feuilletées)", "Lentilles", "Oignons", "Épices", "Fenugrec"],
     "etapes": ["Cuire le poulet avec les épices et oignons", "Préparer les lentilles avec le fenugrec", "Servir sur les msemmen émiettés."],
-    "categorie": "Plat principal"
+    "categorie": "Plat principal",
+    "img_url": "https://www.la-cuisine-marocaine.com/photos-recettes/Rfissa.jpg"
   },
   {
     "nom": "Msemmen",
     "ingredients": ["Farine", "Semoule fine", "Eau tiède", "Sel", "Beurre fondu"],
     "etapes": ["Préparer la pâte", "Étaler et plier plusieurs fois", "Cuire sur une poêle jusqu'à dorure."],
-    "categorie": "Dessert"
+    "categorie": "Dessert",
+    "img_url": "https://www.auxdelicesdupalais.net/wp-content/uploads/2017/05/DSC07459.jpg"
   },
   {
     "nom": "Ghriba aux amandes",
     "ingredients": ["Amandes moulues", "Sucre glace", "Œufs", "Zeste de citron"],
     "etapes": ["Mélanger les ingrédients", "Former des petites boules", "Cuire au four jusqu'à légère dorure."],
-    "categorie": "Dessert"
+    "categorie": "Dessert",
+    "img_url": "https://static.750g.com/images/1200-675/16998552693a6729a83bb5d6711eaaa1/ghoriba-aux-amandes.jpg"
   },
   {
     "nom": "Sellou",
     "ingredients": ["Farine torréfiée", "Amandes", "Sésame", "Sucre glace", "Cannelle", "Beurre fondu"],
     "etapes": ["Torréfier la farine, les amandes et le sésame", "Mélanger avec le beurre et les épices", "Former une pâte ou servir en poudre."],
-    "categorie": "Dessert"
+    "categorie": "Dessert",
+    "img_url": "https://tasteofmaroc.com/wp-content/uploads/2018/05/sellou-picturepartners-bigstock-Traditional-Moroccan-dish-with-124901411-1-1024x682.jpg"
   },
   {
     "nom": "Mkhanfar (beignets marocains)",
     "ingredients": ["Farine", "Eau", "Sucre", "Levure boulangère", "Huile pour friture"],
     "etapes": ["Préparer une pâte liquide", "Laisser reposer jusqu'à fermentation", "Faire frire en petites portions."],
-    "categorie": "Dessert"
+    "categorie": "Dessert",
+    "img_url": "https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_244,q_auto,w_325/https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/236469/baghrir_recette.jpg"
   },
   {
     "nom": "Poulet au miel et amandes",
     "ingredients": ["Poulet", "Amandes grillées", "Oignons", "Miel", "Cannelle"],
     "etapes": ["Cuire le poulet avec les épices et oignons", "Ajouter le miel en fin de cuisson", "Servir avec les amandes."],
-    "categorie": "Plat principal"
+    "categorie": "Plat principal",
+    "img_url": "https://sf2.viepratique.fr/wp-content/uploads/sites/2/2015/03/Poulet-au-miel-et-aux-amandes-1.jpg"
   },
   {
     "nom": "Zaalouk (caviar d’aubergines)",
     "ingredients": ["Aubergines", "Tomates", "Ail", "Huile d'olive", "Épices"],
     "etapes": ["Griller ou cuire les aubergines", "Préparer une sauce tomate", "Mélanger et réduire à feu doux."],
-    "categorie": "Entrée"
+    "categorie": "Entrée",
+    "img_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgctRrQ_qajZXCTKiHdkJ0eeUtw4eURCLqlBgp-odCboEmxR9eIAv7nv-v970yWvzEGDDqvTVZJ5XRN8imywklddM8DEo-nb772PQWkjMSiyu_tVkz1lFvgFWJB62EhowgxjO3Ti0JmQew/s1600/IMG_3310.JPG"
   },
   {
     "nom": "Harcha (galette de semoule)",
     "ingredients": ["Semoule fine", "Beurre fondu", "Sucre", "Levure chimique", "Lait"],
     "etapes": ["Mélanger les ingrédients", "Former des galettes", "Cuire sur une poêle chaude."],
-    "categorie": "Dessert"
+    "categorie": "Dessert",
+    "img_url": "https://www.mesinspirationsculinaires.com/wp-content/uploads/2013/06/harcha-galette-kabyle1.jpg"
   }
 ]

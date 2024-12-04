@@ -80,13 +80,47 @@
                         android:layout_weight="1"
                         android:text="dessert"
                         android:textColor="@color/couleur_primaire" />
+
                 </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTextText3"
+                    android:layout_width="274dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginStart="5sp"
+                    android:capitalize="words"
+                    android:ems="10"
+                    android:hint="Donner une recette"
+                    android:inputType="text"
+                    android:shadowColor="@color/couleur_fond"
+                    android:textColor="@color/couleur_primaire"
+                    android:textColorHint="@color/black"
+                    android:verticalScrollbarPosition="defaultPosition" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="5sp"
+                    android:layout_marginEnd="10sp"
+                    android:layout_weight="1"
+                    android:background="@color/coleur_secondaire"
+                    android:backgroundTint="@color/coleur_secondaire"
+                    android:text="Filtrer" />
             </LinearLayout>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycleView"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="wrap_content" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
